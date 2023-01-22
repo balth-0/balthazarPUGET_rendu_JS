@@ -1,0 +1,24 @@
+
+
+
+.jeu{
+    width: max-content;
+    height: 500px;
+}
+
+
+#waldo{
+    height: 40px;
+    border-radius: 2rem;
+}
+
+#bout_waldo{
+    border-radius: 2rem;
+    border: none;   
+    position: absolute; 
+    
+
+}
+#results{
+
+}
