@@ -11,7 +11,8 @@ let i = 0;
 document.getElementById('chrono').innerHTML = `0${sec}` + ":" + `0${cent}`
 
 
-
+waldo.style.top = `100px`;
+waldo.style.left = `300px`;
 
 
 start.addEventListener("click", () => {
@@ -50,6 +51,7 @@ const chrono = () => {
 
     waldo.disabled = "";
     start.disabled = "disabled"
+
 }
 
 
@@ -68,4 +70,6 @@ const touche = () => {
     document.getElementById('chrono').innerHTML = `0${sec}` + ":" + `0${cent}`
     waldo.disabled = "disabled";
     start.disabled = ""
+    waldo.style.top = `100px`;
+   
 }
